@@ -1,0 +1,4 @@
+<launch>
+    <node name="control_node" pkg="bobo" type="control.py" output="screen" />
+    <node name="segpredict_node" pkg="bobo" type="predict.py" output="screen" />
+</launch>
